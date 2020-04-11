@@ -1,6 +1,6 @@
 const assert = require('assert')
 
-const okng = require('../src/okng.js')
+const okng = require('../src/index.js')
 
 describe('check okng.js', () => {
     it('allways true', () => {

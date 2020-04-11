@@ -1,6 +1,6 @@
 {
   "name": "@kasuyan/my_first_npm_module",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "src/index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kasuyan/my_first_npm_module#readme",
   "devDependencies": {
+    "@kasuyan/my_first_npm_module": "./kasuyan-my_first_npm_module-1.0.2.tgz",
     "mocha": "^7.1.1"
   }
 }
