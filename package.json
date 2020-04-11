@@ -18,6 +18,16 @@
   "homepage": "https://github.com/kasuyan/my_first_npm_module#readme",
   "devDependencies": {
     "@kasuyan/my_first_npm_module": "./kasuyan-my_first_npm_module-1.0.2.tgz",
-    "mocha": "^7.1.1"
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "mocha": "^7.1.1",
+    "prettier": "^2.0.4"
+  },
+  "dependencies": {
+    "@types/node": "^13.11.1",
+    "typescript": "^3.8.3"
   }
 }
