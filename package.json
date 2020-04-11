@@ -1,6 +1,6 @@
 {
   "name": "@kasuyan/my_first_npm_module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,14 +8,15 @@
     "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kasuyan/my_first_npm_module.git"
   },
   "author": "Kasuyan <kasuya725@gmail.com> (https://github.com/kasuyan)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kasuyan/my_first_npm_module/issues"
   },
